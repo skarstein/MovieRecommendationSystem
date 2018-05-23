@@ -6,7 +6,16 @@ def parseData():
 		filepath_or_buffer = "train.txt",
 		sep = "\t",
 		header = None)
-	print (matrix)
+	#print (matrix)
+	return matrix
+
+def train(matrix):
+	return 0
+
+def test():
+	return 0
 
 if __name__ == "__main__":
-	parseData()
+	matrix = parseData()
+	train(matrix)
+	test()
