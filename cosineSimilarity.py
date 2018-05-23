@@ -11,6 +11,7 @@ def findNeighbors(k, matrix):
 	users.groupby("userID")
 
 	print (users)
+	
 
 	#users = users.values
 """
