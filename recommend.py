@@ -9,6 +9,13 @@ def parseData():
 	#print (matrix)
 	return matrix
 
+def parseTest():
+	testUsers = pd.read_csv(
+		filepath_or_buffer = "test5.txt",
+		sep = " ",
+		names = ["userID", "movie", "rating"])
+	return testUsers
+
 def train(matrix):
 	return 0
 
